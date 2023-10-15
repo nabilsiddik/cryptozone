@@ -1,0 +1,53 @@
+.footer {
+  background: #362465;
+  padding: 70px 0;
+  color: #fff;
+}
+.footer p, .footer ul li .menuItem {
+  color: #fff;
+}
+.footer .mainFooter .widget .widgetTitle {
+  margin-bottom: 15px;
+  position: relative;
+  padding-bottom: 10px;
+  display: inline-block;
+}
+.footer .mainFooter .widget .widgetTitle::after {
+  position: absolute;
+  width: 50%;
+  height: 4px;
+  border-radius: 5px;
+  top: 100%;
+  left: 0;
+  background: #9467FE;
+  content: "";
+}
+.footer .mainFooter .widget p, .footer .mainFooter .widget ul li a {
+  color: rgba(255, 255, 255, 0.7);
+  transition: 0.3s ease;
+}
+.footer .mainFooter .widget p:hover, .footer .mainFooter .widget ul li a:hover {
+  color: #9467FE;
+}
+.footer .mainFooter .widget .singleFooterBlog {
+  margin-bottom: 30px;
+}
+.footer .mainFooter .widget .singleFooterBlog .blogTitle {
+  font-size: 16px;
+  font-weight: 600;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+.footer .mainFooter .widget .singleFooterBlog .blogTitle:hover {
+  color: #9467FE;
+}
+.footer .mainFooter .widget .singleFooterBlog .blogDate {
+  color: #9467FE;
+  font-weight: 600;
+}
+.footer .mainFooter .widget1 p {
+  margin: 15px 0;
+}
+.footer .mainFooter .widget3 {
+  padding-right: 10px;
+}/*# sourceMappingURL=footer.css.map */

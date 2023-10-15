@@ -1,0 +1,13 @@
+@import '../../../assets/CSS/variables.scss';
+
+.pageHero{
+    
+    .row{
+        text-align: center;
+        p{
+            margin: 20px 0;
+            color: $primary-color;
+            font-size: 18px;
+        }
+    }
+}

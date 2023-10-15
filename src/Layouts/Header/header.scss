@@ -1,0 +1,30 @@
+@import '../../assets/CSS/variables.scss';
+
+
+.header{
+   
+    position: absolute;
+    top: 25px;
+    left: 0;
+    display: block;
+    width: 100%;
+    .mainMenu{
+        ul{
+            display: flex;
+            align-items: center;
+            gap: 23px;
+            justify-content: end;
+
+            .link{
+                color: #fff;
+                font-size: 16px;
+            }
+        }
+    }
+
+    .headerButtons{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+}

@@ -1,0 +1,22 @@
+.header {
+  position: absolute;
+  top: 25px;
+  left: 0;
+  display: block;
+  width: 100%;
+}
+.header .mainMenu ul {
+  display: flex;
+  align-items: center;
+  gap: 23px;
+  justify-content: end;
+}
+.header .mainMenu ul .link {
+  color: #fff;
+  font-size: 16px;
+}
+.header .headerButtons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}/*# sourceMappingURL=header.css.map */

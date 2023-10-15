@@ -1,0 +1,65 @@
+@import '../../assets//CSS/variables.scss';
+
+.footer{
+    background: $secondary-color;
+    padding: 70px 0;
+    color: #fff;
+    p, ul li .menuItem{
+        color: #fff;
+    }
+
+    .mainFooter{
+        .widget{
+            .widgetTitle{
+                margin-bottom: 15px;
+                position: relative;
+                padding-bottom: 10px;
+                display: inline-block;
+
+                &::after{
+                    position: absolute;
+                    width: 50%;
+                    height: 4px;
+                    border-radius: 5px;
+                    top: 100%;
+                    left: 0;
+                    background: $primary-color;
+                    content: '';
+                }
+            }            p, ul li a{
+                color: rgba(255, 255, 255, 0.7);
+                transition: .3s ease;
+                &:hover{
+                    color: $primary-color;
+                }
+            }
+
+            .singleFooterBlog{
+                margin-bottom: 30px;
+                .blogTitle{
+                    font-size: 16px;
+                    font-weight: 600;
+                    transition: .5s ease;
+                    cursor: pointer;
+
+                    &:hover{
+                        color: $primary-color;
+                    }
+                }
+                .blogDate{
+                    color: $primary-color;
+                    font-weight: 600;
+                }
+            }
+        }
+
+        .widget1{
+            p{
+                margin: 15px 0;
+            }
+        }
+        .widget3{
+            padding-right: 10px;
+        }
+    }
+}
